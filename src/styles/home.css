@@ -1,0 +1,57 @@
+@import "./Colors.css"; /* Importowanie pliku z kolorami */
+
+/* Styl kontenera */
+.Container {
+  width: 100%;
+  text-align: center; /* Wyśrodkowanie tekstu w kontenerze */
+  justify-content: center; /* Wyśrodkowanie elementów wzdłuż osi głównej */
+}
+
+/* Styl kontenera przycisków */
+.ButtonContainer {
+  width: 100%;
+  text-align: center; /* Wyśrodkowanie tekstu w kontenerze */
+  justify-content: center; /* Wyśrodkowanie elementów wzdłuż osi głównej */
+}
+
+/* Styl przycisku */
+.Button {
+  background-color: var(--button-color); /* Ustawienie koloru tła przycisku zdefiniowanego w pliku Colors.css */
+  color: white; /* Kolor tekstu przycisku */
+  margin: 10px;
+  padding: 10px;
+  border: none; /* Usunięcie obramowania przycisku */
+  height: 20%;
+  font-weight: 600;
+  font-size: 17px;
+  width: 40%;
+  cursor: pointer; /* Zmiana kursora na wskaźnik podczas najechania na przycisk */
+  transition: background-color 0.3s ease; /* Płynne przejście koloru tła przycisku */
+  outline: none; /* Usunięcie obramowania przycisku podczas fokusu */
+  border-radius: 10px; /* Zaokrąglenie krawędzi przycisku */
+  border: solid 1px var(--background-color); /* Dodanie obramowania przycisku zdefiniowanego w pliku Colors.css */
+}
+.Button:hover {
+  background-color: var(--button-hover-color); /* Zmiana koloru tła przycisku po najechaniu myszą */
+}
+
+/* Styl zegara */
+.clock {
+  font-family: Arial, sans-serif; /* Wybór czcionki */
+  text-align: center; /* Wyśrodkowanie tekstu */
+  padding: 20px;
+  font-weight: 800; /* Grubość tekstu */
+  font-size: 20px;
+  border-radius: 8px; /* Zaokrąglenie krawędzi */
+}
+
+/* Styl nagłówka */
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px; /* Odstęp od dolnej krawędzi */
+}
+
+/* Styl czasu */
+.time {
+  font-size: 18px; /* Rozmiar tekstu */
+}

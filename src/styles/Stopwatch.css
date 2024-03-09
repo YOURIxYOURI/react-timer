@@ -1,0 +1,47 @@
+@import "./Colors.css"; /* Importowanie pliku z kolorami */
+
+body {
+  font-family: Arial, sans-serif; /* Ustawienie czcionki dla całego dokumentu */
+}
+
+.Container {
+  width: 100%;
+  text-align: center; /* Wyśrodkowanie zawartości poziomo */
+  justify-content: center; /* Wyśrodkowanie zawartości wzdłuż osi głównej */
+}
+
+.button {
+  background-color: var(--button-color); /* Ustawienie koloru tła przycisku */
+  color: white; /* Kolor tekstu przycisku */
+  margin: 10px;
+  padding: 10px;
+  border: none; /* Usunięcie obramowania przycisku */
+  height: 20%;
+  font-size: 17px; /* Rozmiar tekstu */
+  font-weight: 600; /* Grubość tekstu */
+  width: 40%;
+  cursor: pointer; /* Zmiana kursora na wskaźnik podczas najechania na przycisk */
+  transition: background-color 0.3s ease; /* Płynne przejście koloru tła przycisku */
+  outline: none; /* Usunięcie obramowania przycisku podczas fokusu */
+  border-radius: 10px; /* Zaokrąglenie krawędzi przycisku */
+  border: solid 1px var(--background-color); /* Dodanie obramowania przycisku */
+}
+.button:hover {
+  background-color: var(--button-hover-color); /* Zmiana koloru tła przycisku po najechaniu myszą */
+}
+
+h1 {
+  font-size: 24px; /* Rozmiar tekstu nagłówka */
+  margin-bottom: 10px; /* Odstęp od dolnej krawędzi */
+}
+
+.time {
+  font-size: 18px; /* Rozmiar tekstu czasu */
+  font-weight: 800; /* Grubość tekstu */
+}
+
+.clock {
+  margin: 0px; /* Wyzerowanie marginesu */
+  font-size: 32px; /* Rozmiar tekstu zegara */
+  font-weight: 800; /* Grubość tekstu */
+}
